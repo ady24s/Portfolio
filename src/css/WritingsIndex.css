@@ -1,0 +1,71 @@
+/* Styling for the Writings Index Page */
+.writings-index {
+  background: url('../book.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Cover the whole page */
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Circular Image on Top Right */
+.books-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 400px; /* Twice as big */
+  height: 400px; /* Twice as big */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+/* Heading for Titles */
+.titles-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* List of Titles */
+.titles-list {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: auto;
+}
+
+.title-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.icon {
+  width: 25px; /* Size of the cute bullet icon */
+  height: 25px; /* Size of the cute bullet icon */
+  margin-right: 10px;
+}
+
+.title-link {
+  color: white;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: #f39c12; /* Hover color effect */
+}
+
+/* Note at the Bottom */
+.note {
+  text-align: center;
+  font-size: 1.5rem; /* Bigger font size */
+  color: #f39c12;
+  margin-bottom: 0px; /* Move it further up */
+}

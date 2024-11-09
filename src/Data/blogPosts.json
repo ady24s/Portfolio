@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "The Joy of Coding",
+      "summary": "An exploration into why programming can be such a fulfilling activity.",
+      "date": "October 3, 2024",
+      "content": "Coding is more than just a skill, it’s a passion..."
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning and Its Wonders",
+      "summary": "A beginner’s guide to understanding the basics of machine learning.",
+      "date": "September 28, 2024",
+      "content": "Machine learning is transforming the world by enabling systems to learn and improve from experience..."
+    },
+    {
+      "id": 3,
+      "title": "Why Tech Needs More Poets",
+      "summary": "Discussing the importance of creativity in technology and why diverse backgrounds matter.",
+      "date": "September 15, 2024",
+      "content": "Creativity in technology is as essential as technical skill..."
+    }
+  ]
+  
